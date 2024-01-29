@@ -15,6 +15,16 @@ function createRandomArray() {
         arr.push( getRandomInteger(1, 100) );
     }
 
+    for(let i = 0; i < arr.length; i++){
+        console.log(arr[i]);
+    }
+    
+    arr.forEach(function (element) {
+        console.log(element);
+    })
+
+    console.log(arr[arr.length - 1]);
+
     return arr;
 }
 
